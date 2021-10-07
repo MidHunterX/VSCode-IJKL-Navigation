@@ -1,0 +1,99 @@
+{
+    "name": "ijkl-navigation",
+    "displayName": "IJKL Navigation",
+    "description": "Programmer friendly shortcuts for faster navigation",
+    "icon": "img/icon.png",
+    "publisher": "Mid-Hunter",
+    "author": "Mid Hunter",
+    "version": "0.1.0",
+    "engines": {
+        "vscode": "^1.20.0"
+    },
+    "categories": [
+        "Keymaps"
+    ],
+    "contributes": {
+        "keybindings": [
+            {
+                "key": "alt+i",
+                "command": "cursorUp",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+j",
+                "command": "cursorLeft",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+k",
+                "command": "cursorDown",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+l",
+                "command": "cursorRight",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+ctrl+i",
+                "command": "scrollLineUp",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+ctrl+j",
+                "command": "cursorWordStartLeft",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+ctrl+k",
+                "command": "scrollLineDown",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+ctrl+l",
+                "command": "cursorWordEndRight",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+shift+i",
+                "command": "cursorUpSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+shift+j",
+                "command": "cursorLeftSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+shift+k",
+                "command": "cursorDownSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+shift+l",
+                "command": "cursorRightSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+shift+ctrl+i",
+                "command": "cursorUpSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+shift+ctrl+j",
+                "command": "cursorWordStartLeftSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+shift+ctrl+k",
+                "command": "cursorDownSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "key": "alt+shift+ctrl+l",
+                "command": "cursorWordEndRightSelect",
+                "when": "textInputFocus"
+            }
+        ]
+    }
+}
