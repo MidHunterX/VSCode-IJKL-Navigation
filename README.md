@@ -32,4 +32,4 @@ Emulate arrow keys just by pressing alt.
 | `Alt+Ctrl+Shift+L` | Move selection cursor one word forward |
 
 <br/>
-<sub>*Initially made for personal use</sub>
+<sub>*Made for personal use</sub>
